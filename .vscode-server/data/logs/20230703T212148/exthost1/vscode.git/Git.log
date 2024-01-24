@@ -1,0 +1,25 @@
+2023-07-03 21:22:05.241 [info] Log level: Info
+2023-07-03 21:22:05.241 [info] Validating found git in: "git"
+2023-07-03 21:22:05.380 [info] Using git "2.34.1" from "git"
+2023-07-03 21:22:05.609 [info] > git rev-parse --show-toplevel [152ms]
+2023-07-03 21:22:05.644 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2023-07-03 21:22:05.759 [info] Open repository: /home/gabriellsf9/Web-Course
+2023-07-03 21:22:05.927 [info] > git config --get commit.template [97ms]
+2023-07-03 21:22:05.928 [info] > git rev-parse --show-toplevel [120ms]
+2023-07-03 21:22:05.991 [info] > git rev-parse --show-toplevel [23ms]
+2023-07-03 21:22:06.100 [info] > git rev-parse --show-toplevel [85ms]
+2023-07-03 21:22:06.117 [info] > git rev-parse --show-toplevel [7ms]
+2023-07-03 21:22:06.149 [info] > git rev-parse --show-toplevel [9ms]
+2023-07-03 21:22:06.174 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-03 21:22:06.219 [info] > git rev-parse --show-toplevel [27ms]
+2023-07-03 21:22:06.245 [info] > git rev-parse --show-toplevel [9ms]
+2023-07-03 21:22:06.267 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-03 21:22:06.291 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-03 21:22:06.722 [info] > git show --textconv :.env.example [133ms]
+2023-07-03 21:22:06.735 [info] > git check-ignore -v -z --stdin [174ms]
+2023-07-03 21:22:06.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [701ms]
+2023-07-03 21:22:06.996 [info] > git ls-files --stage -- /home/gabriellsf9/Web-Course/.env.example [371ms]
+2023-07-03 21:22:07.192 [info] > git status -z -uall [413ms]
+2023-07-03 21:22:07.693 [info] > git config --get commit.template [385ms]
+2023-07-03 21:22:07.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-07-03 21:22:07.747 [info] > git status -z -uall [14ms]

@@ -1,0 +1,77 @@
+# npm resolution error report
+
+2023-07-14T01:59:43.858Z
+
+While resolving: undefined@undefined
+Found: vue@2.7.14
+node_modules/vue
+  dev vue@"^2.6.12" from the root project
+
+Could not resolve dependency:
+peer vue@"^3.2.0" from vue-router@4.2.4
+node_modules/vue-router
+  vue-router@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "vue",
+    "version": "2.7.14",
+    "whileInstalling": {
+      "path": "/home/gabriellsf9/marketplace"
+    },
+    "location": "node_modules/vue",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "dev",
+        "name": "vue",
+        "spec": "^2.6.12",
+        "from": {
+          "location": "/home/gabriellsf9/marketplace"
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "dev",
+    "name": "vue",
+    "spec": "^2.6.12",
+    "from": {
+      "location": "/home/gabriellsf9/marketplace"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "vue",
+    "spec": "^3.2.0",
+    "error": "INVALID",
+    "from": {
+      "name": "vue-router",
+      "version": "4.2.4",
+      "whileInstalling": {
+        "path": "/home/gabriellsf9/marketplace"
+      },
+      "location": "node_modules/vue-router",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "vue-router",
+          "spec": "*",
+          "from": {
+            "location": "/home/gabriellsf9/marketplace"
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false
+}

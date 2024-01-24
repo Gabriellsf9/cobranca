@@ -1,0 +1,263 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'vite' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:/home/gabriellsf9/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 3ms
+17 timing config:load Completed in 24ms
+18 timing npm:load:configload Completed in 24ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 7ms
+21 timing npm:load:display Completed in 10ms
+22 verbose logfile /home/gabriellsf9/.npm/_logs/2024-01-24T01_34_39_368Z-debug-0.log
+23 timing npm:load:logFile Completed in 12ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 49ms
+27 timing arborist:ctor Completed in 2ms
+28 silly logfile start cleaning logs, removing 1 files
+29 timing idealTree:init Completed in 14ms
+30 timing idealTree:userRequests Completed in 7ms
+31 silly idealTree buildDeps
+32 silly fetch manifest vite@*
+33 http fetch GET 200 https://registry.npmjs.org/vite 1105ms (cache miss)
+34 silly placeDep ROOT vite@5.0.12 OK for:  want: *
+35 silly fetch manifest esbuild@^0.19.3
+36 silly fetch manifest postcss@^8.4.32
+37 silly fetch manifest rollup@^4.2.0
+38 silly fetch manifest fsevents@~2.3.3
+39 http fetch GET 200 https://registry.npmjs.org/fsevents 175ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/esbuild 224ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/postcss 239ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/rollup 334ms (cache miss)
+43 timing idealTree:#root Completed in 1545ms
+44 silly placeDep node_modules/vite esbuild@0.19.12 OK for: vite@5.0.12 want: ^0.19.3
+45 silly placeDep node_modules/vite fsevents@2.3.3 OK for: vite@5.0.12 want: ~2.3.3
+46 silly placeDep node_modules/vite postcss@8.4.33 OK for: vite@5.0.12 want: ^8.4.32
+47 silly placeDep node_modules/vite rollup@4.9.6 OK for: vite@5.0.12 want: ^4.2.0
+48 silly fetch manifest @esbuild/aix-ppc64@0.19.12
+49 silly fetch manifest @esbuild/android-arm@0.19.12
+50 silly fetch manifest @esbuild/android-arm64@0.19.12
+51 silly fetch manifest @esbuild/android-x64@0.19.12
+52 silly fetch manifest @esbuild/darwin-arm64@0.19.12
+53 silly fetch manifest @esbuild/darwin-x64@0.19.12
+54 silly fetch manifest @esbuild/freebsd-arm64@0.19.12
+55 silly fetch manifest @esbuild/freebsd-x64@0.19.12
+56 silly fetch manifest @esbuild/linux-arm@0.19.12
+57 silly fetch manifest @esbuild/linux-arm64@0.19.12
+58 silly fetch manifest @esbuild/linux-ia32@0.19.12
+59 silly fetch manifest @esbuild/linux-loong64@0.19.12
+60 silly fetch manifest @esbuild/linux-mips64el@0.19.12
+61 silly fetch manifest @esbuild/linux-ppc64@0.19.12
+62 silly fetch manifest @esbuild/linux-riscv64@0.19.12
+63 silly fetch manifest @esbuild/linux-s390x@0.19.12
+64 silly fetch manifest @esbuild/linux-x64@0.19.12
+65 silly fetch manifest @esbuild/netbsd-x64@0.19.12
+66 silly fetch manifest @esbuild/openbsd-x64@0.19.12
+67 silly fetch manifest @esbuild/sunos-x64@0.19.12
+68 silly fetch manifest @esbuild/win32-arm64@0.19.12
+69 silly fetch manifest @esbuild/win32-ia32@0.19.12
+70 silly fetch manifest @esbuild/win32-x64@0.19.12
+71 silly fetch manifest nanoid@^3.3.7
+72 silly fetch manifest picocolors@^1.0.0
+73 silly fetch manifest source-map-js@^1.0.2
+74 silly fetch manifest @types/estree@1.0.5
+75 silly fetch manifest @rollup/rollup-darwin-arm64@4.9.6
+76 silly fetch manifest @rollup/rollup-android-arm64@4.9.6
+77 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.9.6
+78 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.9.6
+79 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.9.6
+80 silly fetch manifest @rollup/rollup-android-arm-eabi@4.9.6
+81 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.9.6
+82 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.9.6
+83 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.9.6
+84 silly fetch manifest @rollup/rollup-darwin-x64@4.9.6
+85 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.9.6
+86 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.9.6
+87 silly fetch manifest @rollup/rollup-linux-x64-musl@4.9.6
+88 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 275ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 540ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 792ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/source-map-js 771ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/picocolors 797ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@types%2festree 806ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 836ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 836ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 835ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 829ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 865ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 851ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 848ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 851ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-x64 845ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 857ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 855ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 867ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 922ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 903ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 935ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 933ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 939ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 944ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 973ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 962ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 989ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 997ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 992ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 980ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 1004ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 1002ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/nanoid 970ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 997ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 1015ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 1002ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 2078ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 2178ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 2158ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 2542ms (cache miss)
+128 timing idealTree:node_modules/vite Completed in 2632ms
+129 silly placeDep node_modules/vite @esbuild/aix-ppc64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+130 silly placeDep node_modules/vite @esbuild/android-arm@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+131 silly placeDep node_modules/vite @esbuild/android-arm64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+132 silly placeDep node_modules/vite @esbuild/android-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+133 silly placeDep node_modules/vite @esbuild/darwin-arm64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+134 silly placeDep node_modules/vite @esbuild/darwin-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+135 silly placeDep node_modules/vite @esbuild/freebsd-arm64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+136 silly placeDep node_modules/vite @esbuild/freebsd-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+137 silly placeDep node_modules/vite @esbuild/linux-arm@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+138 silly placeDep node_modules/vite @esbuild/linux-arm64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+139 silly placeDep node_modules/vite @esbuild/linux-ia32@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+140 silly placeDep node_modules/vite @esbuild/linux-loong64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+141 silly placeDep node_modules/vite @esbuild/linux-mips64el@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+142 silly placeDep node_modules/vite @esbuild/linux-ppc64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+143 silly placeDep node_modules/vite @esbuild/linux-riscv64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+144 silly placeDep node_modules/vite @esbuild/linux-s390x@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+145 silly placeDep node_modules/vite @esbuild/linux-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+146 silly placeDep node_modules/vite @esbuild/netbsd-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+147 silly placeDep node_modules/vite @esbuild/openbsd-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+148 silly placeDep node_modules/vite @esbuild/sunos-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+149 silly placeDep node_modules/vite @esbuild/win32-arm64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+150 silly placeDep node_modules/vite @esbuild/win32-ia32@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+151 silly placeDep node_modules/vite @esbuild/win32-x64@0.19.12 OK for: esbuild@0.19.12 want: 0.19.12
+152 timing idealTree:node_modules/vite/node_modules/esbuild Completed in 78ms
+153 timing idealTree:node_modules/vite/node_modules/@esbuild/aix-ppc64 Completed in 0ms
+154 timing idealTree:node_modules/vite/node_modules/@esbuild/android-arm Completed in 0ms
+155 timing idealTree:node_modules/vite/node_modules/@esbuild/android-arm64 Completed in 0ms
+156 timing idealTree:node_modules/vite/node_modules/@esbuild/android-x64 Completed in 0ms
+157 timing idealTree:node_modules/vite/node_modules/@esbuild/darwin-arm64 Completed in 1ms
+158 timing idealTree:node_modules/vite/node_modules/@esbuild/darwin-x64 Completed in 0ms
+159 timing idealTree:node_modules/vite/node_modules/@esbuild/freebsd-arm64 Completed in 0ms
+160 timing idealTree:node_modules/vite/node_modules/@esbuild/freebsd-x64 Completed in 0ms
+161 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-arm Completed in 0ms
+162 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-arm64 Completed in 0ms
+163 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-ia32 Completed in 0ms
+164 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-loong64 Completed in 0ms
+165 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-mips64el Completed in 0ms
+166 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-ppc64 Completed in 0ms
+167 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-riscv64 Completed in 1ms
+168 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-s390x Completed in 0ms
+169 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-x64 Completed in 0ms
+170 timing idealTree:node_modules/vite/node_modules/@esbuild/netbsd-x64 Completed in 0ms
+171 timing idealTree:node_modules/vite/node_modules/@esbuild/openbsd-x64 Completed in 0ms
+172 timing idealTree:node_modules/vite/node_modules/@esbuild/sunos-x64 Completed in 0ms
+173 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-arm64 Completed in 0ms
+174 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-ia32 Completed in 0ms
+175 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-x64 Completed in 0ms
+176 timing idealTree:node_modules/vite/node_modules/fsevents Completed in 0ms
+177 silly placeDep node_modules/vite nanoid@3.3.7 OK for: postcss@8.4.33 want: ^3.3.7
+178 silly placeDep node_modules/vite picocolors@1.0.0 OK for: postcss@8.4.33 want: ^1.0.0
+179 silly placeDep node_modules/vite source-map-js@1.0.2 OK for: postcss@8.4.33 want: ^1.0.2
+180 timing idealTree:node_modules/vite/node_modules/postcss Completed in 8ms
+181 timing idealTree:node_modules/vite/node_modules/nanoid Completed in 0ms
+182 timing idealTree:node_modules/vite/node_modules/picocolors Completed in 0ms
+183 silly placeDep node_modules/vite @rollup/rollup-android-arm-eabi@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+184 silly placeDep node_modules/vite @rollup/rollup-android-arm64@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+185 silly placeDep node_modules/vite @rollup/rollup-darwin-arm64@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+186 silly placeDep node_modules/vite @rollup/rollup-darwin-x64@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+187 silly placeDep node_modules/vite @rollup/rollup-linux-arm-gnueabihf@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+188 silly placeDep node_modules/vite @rollup/rollup-linux-arm64-gnu@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+189 silly placeDep node_modules/vite @rollup/rollup-linux-arm64-musl@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+190 silly placeDep node_modules/vite @rollup/rollup-linux-riscv64-gnu@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+191 silly placeDep node_modules/vite @rollup/rollup-linux-x64-gnu@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+192 silly placeDep node_modules/vite @rollup/rollup-linux-x64-musl@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+193 silly placeDep node_modules/vite @rollup/rollup-win32-arm64-msvc@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+194 silly placeDep node_modules/vite @rollup/rollup-win32-ia32-msvc@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+195 silly placeDep node_modules/vite @rollup/rollup-win32-x64-msvc@4.9.6 OK for: rollup@4.9.6 want: 4.9.6
+196 silly placeDep node_modules/vite @types/estree@1.0.5 OK for: rollup@4.9.6 want: 1.0.5
+197 timing idealTree:node_modules/vite/node_modules/rollup Completed in 40ms
+198 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-android-arm-eabi Completed in 0ms
+199 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-android-arm64 Completed in 0ms
+200 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-darwin-arm64 Completed in 0ms
+201 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-darwin-x64 Completed in 0ms
+202 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 0ms
+203 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-gnu Completed in 0ms
+204 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-musl Completed in 0ms
+205 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 0ms
+206 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-x64-gnu Completed in 0ms
+207 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-x64-musl Completed in 0ms
+208 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-arm64-msvc Completed in 0ms
+209 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-ia32-msvc Completed in 0ms
+210 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-x64-msvc Completed in 0ms
+211 timing idealTree:node_modules/vite/node_modules/@types/estree Completed in 0ms
+212 timing idealTree:node_modules/vite/node_modules/source-map-js Completed in 0ms
+213 timing idealTree:buildDeps Completed in 4321ms
+214 timing idealTree:fixDepFlags Completed in 2ms
+215 warn EBADENGINE Unsupported engine {
+215 warn EBADENGINE   package: 'vite@5.0.12',
+215 warn EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+215 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+215 warn EBADENGINE }
+216 warn EBADENGINE Unsupported engine {
+216 warn EBADENGINE   package: 'rollup@4.9.6',
+216 warn EBADENGINE   required: { node: '>=18.0.0', npm: '>=8.0.0' },
+216 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+216 warn EBADENGINE }
+217 timing idealTree Completed in 4360ms
+218 timing reify:loadTrees Completed in 4366ms
+219 timing reify:diffTrees Completed in 4ms
+220 silly reify moves {}
+221 timing reify:retireShallow Completed in 1ms
+222 timing reify:rollback:createSparse Completed in 0ms
+223 timing reify:rollback:retireShallow Completed in 0ms
+224 timing command:install Completed in 4470ms
+225 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+226 verbose cwd /home/gabriellsf9/cobranca
+227 verbose Linux 5.15.133.1-microsoft-standard-WSL2
+228 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "vite"
+229 verbose node v12.22.9
+230 verbose npm  v8.5.1
+231 error code EACCES
+232 error syscall mkdir
+233 error path /usr/local/lib/node_modules
+234 error errno -13
+235 error [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'] {
+235 error   errno: -13,
+235 error   code: 'EACCES',
+235 error   syscall: 'mkdir',
+235 error   path: '/usr/local/lib/node_modules'
+235 error }
+236 error
+236 error The operation was rejected by your operating system.
+236 error It is likely you do not have the permissions to access this file as the current user
+236 error
+236 error If you believe this might be a permissions issue, please double-check the
+236 error permissions of the file and its containing directories, or try running
+236 error the command again as root/Administrator.
+237 verbose exit -13
+238 timing npm Completed in 4924ms
+239 verbose unfinished npm timer reify 1706060079806
+240 verbose unfinished npm timer reify:createSparse 1706060084214
+241 verbose code -13
+242 error A complete log of this run can be found in:
+242 error     /home/gabriellsf9/.npm/_logs/2024-01-24T01_34_39_368Z-debug-0.log

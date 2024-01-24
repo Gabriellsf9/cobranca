@@ -1,0 +1,42 @@
+2024-01-23 22:04:37.768 [info] Log level: Info
+2024-01-23 22:04:37.768 [info] Validating found git in: "git"
+2024-01-23 22:04:37.768 [info] Using git "2.34.1" from "git"
+2024-01-23 22:04:37.768 [info] > git rev-parse --show-toplevel [231ms]
+2024-01-23 22:04:37.779 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 22:04:37.794 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-23 22:04:37.838 [info] > git rev-parse --show-toplevel [14ms]
+2024-01-23 22:04:37.871 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-01-23 22:04:38.004 [info] Open repository: /home/gabriellsf9/cobranca/cobranca
+2024-01-23 22:04:38.301 [info] > git rev-parse --show-toplevel [46ms]
+2024-01-23 22:04:38.313 [info] > git config --get commit.template [57ms]
+2024-01-23 22:04:38.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-01-23 22:04:38.398 [warning] ENOENT: no such file or directory, open '/home/gabriellsf9/cobranca/cobranca/.git/refs/remotes/origin/main'
+2024-01-23 22:04:38.401 [info] > git rev-parse --show-toplevel [33ms]
+2024-01-23 22:04:38.410 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-01-23 22:04:38.463 [info] > git status -z -uall [32ms]
+2024-01-23 22:04:38.565 [info] > git rev-parse --show-toplevel [111ms]
+2024-01-23 22:04:38.598 [info] > git config --get commit.template [33ms]
+2024-01-23 22:04:38.668 [info] > git rev-parse --show-toplevel [33ms]
+2024-01-23 22:04:38.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-01-23 22:04:38.699 [warning] ENOENT: no such file or directory, open '/home/gabriellsf9/cobranca/cobranca/.git/refs/remotes/origin/main'
+2024-01-23 22:04:38.728 [info] > git rev-parse refs/remotes/origin/main [30ms]
+2024-01-23 22:04:38.747 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-23 22:04:38.779 [info] > git status -z -uall [40ms]
+2024-01-23 22:04:38.816 [info] > git rev-parse --show-toplevel [45ms]
+2024-01-23 22:04:38.868 [info] > git rev-parse --show-toplevel [30ms]
+2024-01-23 22:04:39.033 [info] > git rev-parse --show-toplevel [139ms]
+2024-01-23 22:04:39.082 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-23 22:04:39.148 [info] > git check-ignore -v -z --stdin [9ms]
+2024-01-23 22:04:53.705 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 22:04:53.717 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-01-23 22:04:53.726 [info] Open repository: /home/gabriellsf9
+2024-01-23 22:04:53.747 [info] No remotes found in the git config file.
+2024-01-23 22:04:53.750 [info] > git config --get commit.template [12ms]
+2024-01-23 22:04:53.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-01-23 22:04:53.936 [info] > git status -z -uall [171ms]
+2024-01-23 22:04:56.939 [info] > git check-ignore -v -z --stdin [88ms]
+2024-01-23 22:04:56.976 [info] > git check-ignore -v -z --stdin [80ms]
+2024-01-23 22:04:56.979 [info] > git config --get commit.template [246ms]
+2024-01-23 22:04:56.993 [info] No remotes found in the git config file.
+2024-01-23 22:04:57.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-01-23 22:04:57.300 [info] > git status -z -uall [249ms]

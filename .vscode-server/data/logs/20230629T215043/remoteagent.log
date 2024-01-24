@@ -1,0 +1,14 @@
+2023-06-29 21:50:43.792 [info] 
+
+
+
+
+2023-06-29 21:50:43.792 [info] Extension host agent started.
+2023-06-29 21:50:43.900 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gabriellsf9/.vscode-server/extensions
+2023-06-29 21:50:44.042 [info] [127.0.0.1][b9b1af7a][ManagementConnection] New connection established.
+2023-06-29 21:50:45.693 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gabriellsf9/.vscode-server/extensions
+2023-06-29 21:50:47.752 [info] [127.0.0.1][acec5c0d][ExtensionHostConnection] New connection established.
+2023-06-29 21:50:47.829 [info] [127.0.0.1][acec5c0d][ExtensionHostConnection] <688> Launched Extension Host Process.
+2023-06-29 21:50:49.697 [warning] No ptyHost heartbeat after 6 seconds
+2023-06-29 22:22:53.998 [info] [127.0.0.1][b9b1af7a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-29 22:22:54.114 [info] [127.0.0.1][acec5c0d][ExtensionHostConnection] <688> Extension Host Process exited with code: 0, signal: null.
